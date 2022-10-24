@@ -1,0 +1,36 @@
+/*
+Colours:
+Eerie Black: #1C1C1C
+Upsdell Red: #B31228
+Blue Pantone: #2E22AB
+Black: #000000
+Ghost White: #FAFAFF
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+h1{
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+    text-align: center;
+    color:#2E22AB
+}
+
+h2{
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+    text-align: center;
+    color:#B31228
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    color: #FAFAFF
+}
+
+.pdfont{
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+.bgcolor{
+background-color:#1C1C1C ;
+}
