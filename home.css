@@ -18,3 +18,37 @@ header {
 .nav-item:hover {
     font-family: 'Perfect Dark (BRK)', sans-serif;
 }
+
+.bg-image {
+    background-image: url('img/perfect-dark-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(3px); 
+    height: 100vh;
+    width: 100%;
+}
+
+.introduction {
+    position:relative;
+    height: 400px;
+}
+
+.introduction__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.introduction__content-text {
+    background-color: #1C1C1C;
+}
