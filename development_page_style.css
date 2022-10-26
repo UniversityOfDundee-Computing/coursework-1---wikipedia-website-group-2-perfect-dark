@@ -25,9 +25,13 @@ body {
     font-weight: 1000;
 }
 
-.bgimg {
-    background-image: url(https://wallup.net/wp-content/uploads/2018/03/19/546420-Perfect_Dark-Nintendo_64-video_games-black_background.jpg);
+
+/*.bgimg {
+
 }
+
+background img to be added */
+
 
 .grey{
     background-color: rgb(128, 128, 128, 0.5);
