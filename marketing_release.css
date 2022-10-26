@@ -1,0 +1,45 @@
+/*
+Colours:
+Eerie Black: #1C1C1C
+Upsdell Red: #B31228
+Blue Pantone: #2E22AB
+Black: #000000
+Ghost White: #FAFAFF
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 1000;
+}
+
+
+/*.bgimg {
+
+}
+
+background img to be added */
+
+
+.grey{
+    background-color: rgb(128, 128, 128, 0.5);
+}
+
+/*
+    Used to stop navbar text merging with content
+*/
+.bg-black {
+    background-color: rgb(0, 0, 0);
+}
