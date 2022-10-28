@@ -1,54 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
 
 body, html {
     font-family: 'Mulish', sans-serif;
-    background-color: #2E22AB;
-}
-
-header {
-    background-color: #FAFAFF;
-    box-shadow: inset 0 0 100px #1C1C1C;
-}
-
-.header__title {
-    font-family: 'Perfect Dark (BRK)', sans-serif;
-    font-size: 1.7rem;
-}
-
-.nav-item:hover {
-    font-family: 'Perfect Dark (BRK)', sans-serif;
-}
-
-.bg-image {
-    background-image: url('img/perfect-dark-bg.jpg');
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
-.blur {
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(3px); 
-    height: 100vh;
-    width: 100%;
-}
-
-.introduction {
-    position:relative;
-    height: 400px;
-}
-
-.introduction__content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.introduction__content-text {
     background-color: #1C1C1C;
+    color: #FAFAFF;
+}
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 700;
 }
