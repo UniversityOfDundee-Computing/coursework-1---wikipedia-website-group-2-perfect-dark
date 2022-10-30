@@ -10,6 +10,14 @@ Ghost White: #FAFAFF
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
 
+.underlined {
+    border-bottom: 3px solid white;
+}
+
+.toplined {
+    border-top: 3px solid white;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: 'Mulish', sans-serif;
@@ -33,15 +41,15 @@ header {
     background-color:rgb(0, 0, 0, 0.9)
 }
 
-
-/*.bgimg {
-
+.bgimg {
+    background-image: url("background_image_2.jpg");
 }
 
-background img to be added */
-
+.bgimg2 {
+    background-image: url("");
+}
 
 .greybg{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59, 0.5);
     
 }
