@@ -1,0 +1,51 @@
+/* COLOURS TO USE
+#1C1C1C eerie black
+#B31228 upsdell red
+#2E22AB blue pantone
+#000000 black 
+#FAFAFF ghost white
+*/
+
+@import url(https://fonts.google.com/specimen/Mulish );
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+body {
+
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.campaign {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.multiplayer {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width:768px) {
+    .subinfo {
+        display: flex;
+    }
+}
