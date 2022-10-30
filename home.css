@@ -16,12 +16,11 @@ body, html {
     font-weight: 700;
 }
 
-.bg-image {
+.introduction .bg-image {
     background-image: url('img/perfect-dark-bg.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 100%;
     width: 100%;
 }
@@ -43,4 +42,23 @@ body, html {
 .introduction__content-text {
     background-color: #1C1C1C;
     border-radius: 25px;
+    z-index:1000;
+}
+
+.plot .bg-image {
+    background-image: url('img/plot-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.plot__content-title {
+    border-bottom: 4px solid #FAFAFF;
+}
+
+.plot__content-text {
+    background-color: #1C1C1C;
+    border-radius: 15px;
 }
