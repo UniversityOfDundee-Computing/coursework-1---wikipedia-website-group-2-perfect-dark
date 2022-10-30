@@ -11,6 +11,10 @@ body, html {
     font-family: 'Perfect Dark (BRK)', sans-serif;
 }
 
+header, #header-logo {
+    background-color: #000000;
+}
+
 .nav-link:hover,
 .dropdown-item:hover {
     font-weight: 700;
@@ -42,7 +46,6 @@ body, html {
 .introduction__content-text {
     background-color: #1C1C1C;
     border-radius: 25px;
-    z-index:1000;
 }
 
 .plot .bg-image {
