@@ -25,6 +25,14 @@ body {
     font-weight: 1000;
 }
 
+footer, #pdlogo {
+    background-color: black;
+}
+
+header {
+    background-color:rgb(0, 0, 0, 0.9)
+}
+
 
 /*.bgimg {
 
@@ -33,7 +41,7 @@ body {
 background img to be added */
 
 
-.grey{
-    background-color: rgb(128, 128, 128, 0.5);
+.greybg{
+    background-color: rgb(59, 59, 59);
     
 }
