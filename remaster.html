@@ -29,38 +29,39 @@
 
 <body class="bgimg">
     <!-- Perfect dark logo-->
-    <div class="text-center p-3 pt-4">
+    <div id="pdlogo" class="text-center p-3 pt-4">
         <a href="https://en.wikipedia.org/wiki/Perfect_Dark">
             <img src="https://www.theinitiative.com/wp-content/uploads/2021/07/pd-logo-white.png" width="200"
                 height="60">
         </a>
     </div>
+
     <header class="sticky-top">
         <!-- Nav bar -->
-        <nav class="navbar navbar-expand-sm navbar-dark p-3 bg-black">
+        <nav class="navbar navbar-expand-sm navbar-dark p-3">
             <div class="navbar-collapse pb-2" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="index.html">HOME</a>
+                        <a class="nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#">GAMEPLAY</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item px-3 active pdfont">
                         <a class="nav-link" href="development_page.html">DEVELOPMENT</a>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#">RECEPTION</a>
                     </li>
-                    <li class="nav-item px-3 dropdown active">
-                        <a class="nav-link dropdown-toggle pdfont" href="#" id="navbarDropdownMenuLink" role="button"
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             OTHER
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="marketing_release.html">MARKETING AND RELEASE</a>
-                            <a class="dropdown-item" href="legacy.html">LEGACY</a>
-                            <a class="dropdown-item pdfont" href="remaster.html">REMASTER</a>
+                            <a class="dropdown-item" href="#">MARKETING AND RELEASE</a>
+                            <a class="dropdown-item" href="#">LEGACY</a>
+                            <a class="dropdown-item" href="#">REMASTER</a>
                         </div>
                     </li>
                 </ul>
@@ -68,7 +69,8 @@
         </nav>
     </header>
 
-    <main>
+
+    <main class="bgimg4">
         <!-- Main text container-->
         <div class="container pt-3 px-4">
             <!-- ROW 1 -->
@@ -88,10 +90,27 @@
                 </div>
             </div>
         </div>
+        <!-- Fill up rest of page to make it look less empty (?) messy but working solution-->
+        <br><br><br><br><br><br><br><br><br><br><br>
     </main>
 
-    <footer>
-
+    <footer class="fixed-bottom">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-content">
+                        <a class="px-2 text-light" href="#pdlogo">Back to Top</a> |
+                        <a class="px-2 text-light" href="#">Contact Us</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">© Danyl Kecha, Arvin Shafiei Adjbisheh, Anas Saad, Marylou Das Chagas E
+                        Silva. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
