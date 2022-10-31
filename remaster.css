@@ -61,3 +61,8 @@ header {
 .greybg {
     background-color: rgb(59, 59, 59, 0.5);
 }
+
+.container {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
