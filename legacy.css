@@ -10,6 +10,14 @@ Ghost White: #FAFAFF
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
 
+.underlined {
+    border-bottom: 3px solid white;
+}
+
+.toplined {
+    border-top: 3px solid white;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: 'Mulish', sans-serif;
@@ -25,21 +33,38 @@ body {
     font-weight: 1000;
 }
 
-
-/*.bgimg {
-
+footer,
+#pdlogo {
+    background-color: black;
 }
 
-background img to be added */
-
-
-.grey{
-    background-color: rgb(128, 128, 128, 0.5);
+header {
+    background-color: rgb(0, 0, 0, 0.9)
 }
 
-/*
-    Used to stop navbar text merging with content
-*/
-.bg-black {
-    background-color: rgb(0, 0, 0);
+.bgimg {
+    background-image: url("background_image_2.jpg");
+}
+
+.bgimg2 {
+    background-image: url("background_image_1.jpg");
+}
+
+.bgimg3 {
+    background-image: url("marketing_background.png");
+    background-size: cover;
+}
+
+.bgimg4 {
+    background-image: url("remaster_background.png");
+    background-size: cover;
+}
+
+.bgimg5 {
+    background-image: url("legacy_background.png");
+    background-size: cover;
+}
+
+.greybg {
+    background-color: rgb(59, 59, 59, 0.5);
 }
