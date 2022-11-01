@@ -45,6 +45,10 @@ header{
     border-radius: 25px;
 }
 
+.introduction__content iframe {
+    border: none;
+}
+
 .plot .bg-image {
     background-image: url('img/plot-bg.jpg');
     background-position: center; 
