@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 @import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
 
 body, html {
@@ -11,32 +11,29 @@ body, html {
     font-family: 'Perfect Dark (BRK)', sans-serif;
 }
 
-header, #header-logo {
-    background-color: #000000;
+header{
+    background-color:rgb(0, 0, 0, 0.9)
+}
+
+#pdlogo, footer{
+    background: #000000;
 }
 
 .nav-link:hover,
 .dropdown-item:hover {
-    font-weight: 700;
+    font-weight: 1000;
 }
 
-.introduction .bg-image {
-    background-image: url('img/perfect-dark-bg.jpg');
+.bg-image {
     background-size: cover;
-    background-position: bottom;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
 
-.blur {
-    position:absolute;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(3px); 
-    height: 100%;
-    width: 100%;
+.introduction .bg-image {
+    background-image: url('img/perfect-dark-bg.jpg');
+    background-position: bottom;
 }
 
 .introduction {
@@ -50,11 +47,7 @@ header, #header-logo {
 
 .plot .bg-image {
     background-image: url('img/plot-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    background-position: center; 
 }
 
 .plot__content-title {
@@ -64,10 +57,6 @@ header, #header-logo {
 .plot__content-text {
     background-color: #1C1C1C;
     border-radius: 15px;
-}
-
-footer {
-    background-color: #000000;
 }
 
 .footer-content a {
