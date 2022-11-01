@@ -13,12 +13,19 @@
     font-family: 'Perfect Dark (BRK)', sans-serif;
 }
 
-header{
+header {
     background-color: #000000;
 }
-.pdlogo{
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 1000;
+}
+
+.pdlogo {
     background-color: #000000;
 }
+
 .underlined {
     border-bottom: 3px solid white;
 }
@@ -27,7 +34,8 @@ header{
     border-top: 3px solid white;
 }
 
-h2,h3 {
+h2,
+h3 {
     text-align: center;
     color: white;
     font-family: 'Perfect Dark (BRK)', sans-serif;
@@ -35,11 +43,11 @@ h2,h3 {
 
 body {
 
-    background-color: #000000;
+    background-color: #1C1C1C;
     padding: 0;
     margin: 0;
 }
-   
+
 
 p {
     font-family: 'Mulish', sans-serif;
@@ -50,11 +58,24 @@ p {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+   box-sizing: border-box;
+   border-color: #000000;
+}
+
+.multiplayer {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
     text-align: justify;
 }
-.multiplayer{
+
+.maingameplayinfo {
+    background-image: url("bgimage1.jpg");
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -63,17 +84,17 @@ p {
     text-align: justify;
 }
 
-
-.slidingImages {
-
-    
-}
-
-.maingameplayinfo{
-    background-image: url("bgimage1.jpg");
-
-}
-footer{
+footer {
     background-color: #000000;
 }
 
+@media (min-width: 0px) {
+    .carousel {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin:auto;
+        max-width: 700px;
+    }
+}
