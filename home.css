@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Perfect Dark (BRK)';
-    src: url(/fonts/pdark.ttf);
+    src: url("fonts/pdark.ttf");
 }
 
 body, html {
