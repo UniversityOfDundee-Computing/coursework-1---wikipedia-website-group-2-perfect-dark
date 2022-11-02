@@ -2,7 +2,7 @@
 You should use this repository for your first group coursework in AC11002 / AC51046
 
 ## Group Members
-Aaron Ahmed\
+Arvin Shafiei Adjbisheh\
 Danyl Kecha\
 Anas Saad\
 Marylou Das Chagas E Silva
