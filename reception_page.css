@@ -53,3 +53,59 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.mainreceptioninfo {
+    background-color:#1C1C1C;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+table { 
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: auto;
+  }
+
+  th { 
+    background: rgb(0, 0, 0); 
+    color: white; 
+    font-weight: bold;
+    padding: 6px;
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: left; 
+  }
+  td { 
+    padding: 6px; 
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: left; 
+    background: #333; 
+    color: white; 
+  }
+
+  .table1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .table2{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .checked {
+    color: orange;
+  }
