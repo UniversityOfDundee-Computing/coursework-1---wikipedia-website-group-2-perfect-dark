@@ -1,0 +1,27 @@
+/* COLOURS TO USE
+#1C1C1C eerie black
+#B31228 upsdell red
+#2E22AB blue pantone
+#000000 black 
+#FAFAFF ghost white
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+header {
+    background-color: #000000;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 1000;
+}
+
+.pdlogo {
+    background-color: #000000;
+}
