@@ -48,7 +48,7 @@ h3{
 
 body {
 
-    background-color: #1C1C1C;
+    background-color:#1C1C1C;
     padding: 0;
     margin: 0;
 }
@@ -73,7 +73,7 @@ p {
 
 
 .mainreceptioninfo {
-    background-color: #1C1C1C;
+    background-color:#1C1C1C;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -97,8 +97,11 @@ table {
     background: rgb(0, 0, 0); 
     color: white; 
     font-weight: bold;
+    padding: 6px;
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: left; 
   }
-  td, th { 
+  td { 
     padding: 6px; 
     border: 1px solid rgb(0, 0, 0); 
     text-align: left; 
@@ -121,3 +124,8 @@ table {
     padding-bottom: 50px;
 
   }
+
+  .checked {
+    color: orange;
+  }
+  
