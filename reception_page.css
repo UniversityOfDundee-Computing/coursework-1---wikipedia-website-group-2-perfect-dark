@@ -109,3 +109,14 @@ table {
   .checked {
     color: orange;
   }
+
+  .AdditionalInfo {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    border-color: #000000;
+}
