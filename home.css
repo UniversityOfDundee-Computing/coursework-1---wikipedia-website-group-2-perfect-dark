@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+body, html {
+    font-family: 'Mulish', sans-serif;
+    background-color: #1C1C1C;
+    color: #FAFAFF;
+}
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+header{
+    background-color:rgb(0, 0, 0, 0.9)
+}
+
+#pdlogo, footer{
+    background: #000000;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 1000;
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.introduction .bg-image {
+    background-image: url('img/perfect-dark-bg.jpg');
+    background-position: bottom;
+}
+
+.introduction {
+    position: relative;
+}
+
+.introduction__content-text {
+    background-color: #1C1C1C;
+    border-radius: 25px;
+}
+
+.introduction__content iframe {
+    border: none;
+}
+
+.plot .bg-image {
+    background-image: url('img/plot-bg.jpg');
+    background-position: center; 
+}
+
+.plot__content-title {
+    border-bottom: 4px solid #FAFAFF;
+}
+
+.plot__content-text {
+    background-color: #1C1C1C;
+    border-radius: 15px;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    font-weight: 700;
+}
