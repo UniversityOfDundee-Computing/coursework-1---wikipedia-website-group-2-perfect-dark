@@ -1,0 +1,71 @@
+/*
+Colours:
+Eerie Black: #1C1C1C
+Upsdell Red: #B31228
+Blue Pantone: #2E22AB
+Black: #000000
+Ghost White: #FAFAFF
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
+
+.underlined {
+    border-bottom: 3px solid white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.pdfont {
+    font-family: 'Perfect Dark (BRK)', sans-serif;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    font-weight: 1000;
+}
+
+footer,
+#pdlogo {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(0, 0, 0, 0.9)
+}
+
+.bgimg {
+    background-image: url("background_image_2.jpg");
+}
+
+.bgimg2 {
+    background-image: url("background_image_1.jpg");
+}
+
+.bgimg3 {
+    background-image: url("marketing_background.png");
+    background-size: cover;
+}
+
+.bgimg4 {
+    background-image: url("remaster_background.png");
+    background-size: cover;
+}
+
+.bgimg5 {
+    background-image: url("legacy_background.png");
+    background-size: cover;
+}
+
+.greybg {
+    background-color: rgb(59, 59, 59, 0.5);
+}
+
+.container {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
