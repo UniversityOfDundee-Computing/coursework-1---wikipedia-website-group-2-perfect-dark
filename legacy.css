@@ -48,10 +48,17 @@ header {
 
 .bgimg3 {
     background-image: url("marketing_background.png");
+    background-size: cover;
 }
 
 .bgimg4 {
     background-image: url("remaster_background.png");
+    background-size: cover;
+}
+
+.bgimg5 {
+    background-image: url("legacy_background.png");
+    background-size: cover;
 }
 
 .greybg {
