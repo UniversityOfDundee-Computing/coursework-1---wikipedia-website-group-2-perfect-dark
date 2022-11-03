@@ -1,61 +1,10 @@
-/* COLOURS TO USE
-#1C1C1C eerie black
-#B31228 upsdell red
-#2E22AB blue pantone
-#000000 black 
-#FAFAFF ghost white
-*/
-
-@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
-@import url('http://fonts.cdnfonts.com/css/perfect-dark-brk');
-
-.pdfont {
-    font-family: 'Perfect Dark (BRK)', sans-serif;
-}
-
-header {
-    background-color: #000000;
-}
-
-.nav-link:hover,
-.dropdown-item:hover {
-    font-weight: 1000;
-}
-
-.pdlogo {
-    background-color: #000000;
-}
-
-.underlined {
-    border-bottom: 3px solid white;
-}
-
-.toplined {
-    border-top: 3px solid white;
-}
-
-h2{
+h2, h3{
     text-align: center;
-    color: white;
-    font-family: 'Perfect Dark (BRK)', sans-serif;
-}
-h3{
-    text-align: center;
-    color: white;
-    font-family: 'Mulish', sans-serif;
-
 }
 
 body {
-
-    background-color:#1C1C1C;
     padding: 0;
     margin: 0;
-}
-
-p {
-    font-family: 'Mulish', sans-serif;
-    color: white;
 }
 
 .mainreceptioninfo {
@@ -72,45 +21,46 @@ table {
     width: 50%; 
     border-collapse: collapse; 
     margin: auto;
-  }
+}
 
-  th { 
+th { 
     background: rgb(0, 0, 0); 
     color: white; 
     font-weight: bold;
     padding: 6px;
     border: 1px solid rgb(0, 0, 0); 
     text-align: left; 
-  }
-  td { 
+}
+
+td { 
     padding: 6px; 
     border: 1px solid rgb(0, 0, 0); 
     text-align: left; 
     background: #333; 
     color: white; 
-  }
+}
 
-  .table1{
+.table1{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 50px;
 
-  }
+}
 
-  .table2{
+.table2{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 50px;
 
-  }
+}
 
-  .checked {
+.checked {
     color: orange;
-  }
+}
 
-  .AdditionalInfo {
+.AdditionalInfo {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -119,8 +69,4 @@ table {
     text-align: justify;
     box-sizing: border-box;
     border-color: #000000;
-}
-
-footer {
-    background-color: #000000;
 }
