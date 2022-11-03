@@ -1,0 +1,20 @@
+.bgimg {
+    background-image: url("../img/background_image_2.jpg");
+}
+
+.bgimg2 {
+    background-image: url("../img/background_image_1.jpg");
+}
+
+.bgimg3 {
+    background-image: url("../img/marketing_background.png");
+}
+
+.bgimg4 {
+    background-image: url("../img/remaster_background.png");
+}
+
+.container {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
