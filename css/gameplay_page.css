@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.campaign {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+    box-sizing: border-box;
+    border-color: #000000;
+}
+
+.multiplayer {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.maingameplayinfo {
+    background-image: url("../img/bgimage1.jpg");
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.carousel {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 700px;
+}
